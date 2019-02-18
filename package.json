@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "run-p -r serve:*",
     "serve:serve": "serve dist",
-    "serve:webpack": "webpack --watch"
+    "serve:webpack": "webpack --watch",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
